@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "balluff-cmtk-test"
+version = "0.1.0"
+description = ""
+authors = ["Simon <simonkneller@gmx.de>"]
+readme = "README.md"
+packages = [{include = "balluff_cmtk_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+conda-lock = "^2.1.2"
+mamba = "^0.11.2"
+ipykernel = "^6.25.1"
+paho-mqtt = "^1.6.1"
+pre-commit = "^3.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
