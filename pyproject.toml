@@ -13,6 +13,7 @@ mamba = "^0.11.2"
 ipykernel = "^6.25.1"
 paho-mqtt = "^1.6.1"
 pre-commit = "^3.3.3"
+jupyter = "^1.0.0"
 
 
 [build-system]
